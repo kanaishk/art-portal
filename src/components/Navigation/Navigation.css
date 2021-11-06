@@ -1,0 +1,9 @@
+@font-face {
+   font-family: 'The Humble Script';
+   font-weight: normal;
+   src: local('The Humble'), url('../../assets/The Humble.woff') format('woff');
+}
+
+.font_ths {
+	font-family: 'The Humble Script', serif;
+}
