@@ -13,8 +13,8 @@ class App extends React.Component {
             <Navigation />
             <Router>
                <Routes>
-                  <Route path='/gallery' component={Gallery} />
-                  <Route path='/' component={Home} />   
+                  <Route path='/gallery' element={<Gallery />} />
+                  <Route path='/' element={<Home />} />   
                </Routes>
             </Router>
          </div>
